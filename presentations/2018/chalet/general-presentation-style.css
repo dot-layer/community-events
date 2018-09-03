@@ -1,0 +1,32 @@
+slide img {
+  max-width: 825px;
+  max-height: 450px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gdbar img {
+  width: 0px !important;
+  height: 0px !important;
+  margin: 0px 0px;
+}
+
+.gdbar {
+  width: 0px !important;
+  height: 0px !important;
+}
+
+slides > slide:not(.nobackground):before {
+  width: 203px;
+  height: 65px;
+  background-size: 203px 65px;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}

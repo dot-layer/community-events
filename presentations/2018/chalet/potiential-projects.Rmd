@@ -1,0 +1,45 @@
+---
+title: "Projets potentiels"
+date: '2018-08-25'
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+## Mise en contexte
+
+Une composante importante de la communauté est rattachée aux projets qui sont travaillés par les membres de la communauté. Les projets concrets permettent de mettre en application des notions étudiées, de développer différents talents et aussi d'avoir un impact concret dans la vie de certaines personnes.
+
+---
+
+## Projet 1: Listes de repêchage
+
+**Idées:**
+
+- Créer une *master* list à partir de différentes listes de scouting.
+
+<br/>
+<br/>
+
+![](images/moncton-wildcats-logo.png)
+
+---
+
+## Projet 2: PEOPLE
+
+**Idées:**
+
+- Network of collaborative distances.
+- Neural network: Music to images.
+
+
+![](images/people-logo.jpg)
+
+---
+class: center, middle
+
+## Autres idées ?
