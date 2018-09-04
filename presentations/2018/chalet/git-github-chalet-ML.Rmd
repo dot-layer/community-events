@@ -1,0 +1,244 @@
+---
+title: "Introduction à Git et GitHub"
+author: "Jean-Thomas Baillargeon et Christopher Blier-Wong"
+date: "Chalet Machine Learning"
+output: 
+  revealjs::revealjs_presentation:
+    theme: sky
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Plan
+
+- Quesser ça, git ?
+- Et GitHub, c'est la même chose ?
+
+# Contrôle de versions et git
+
+## Utilité du contrôle de versions
+
+- Quand on fait de l'ordinateur, il y a plusieurs version du code. 
+- Exemple de conversation lors du BAC :  
+
+
+<div style="text-align: left"> <span style="color:blue">Heille est-ce que t'as codé la méthode du rectangle pour le TP</span> </div>
+
+<div style="text-align: right"> <span style="color:green">Ben oui elle est dans tp.vf-1043.R !</span> </div>
+
+<div style="text-align: left"> <span style="color:blue">J'ai juste tp.vf-1042.R que tu m'as envoyé par fax</span> </div>
+
+<div style="text-align: right"> <span style="color:green">Yo je l'ai mis sur Facebook hier</span> </div>
+
+## Utilité du contrôle de versions
+
+```{r, out.width = "400px"}
+knitr::include_graphics("images/kgwSHNt.jpg")
+```
+https://i.imgur.com/kgwSHNt.jpg
+
+## Autres utilités du versionnage
+
+- Être capable de revenir vers une version du code qui fonctionne
+- Développer des features en parallel
+- Savoir qui a écrit quoi
+- Pas briser le code de tout le monde parce que tu voulais tester une p'tite chose
+- Gérer les fusionnements et les conflits dans les codes
+- Avoir l'aire élite quand tu utilise dans'console
+
+## Démystification de git
+
+- GitHub est devenu le standard pour partager son code
+- Mais git n'est pas un outil de collaboration
+- Il est utile pour la collaboration à cause du contrôle de versions
+- Pour collaborer, Dropbox / Google Drive est encore king
+
+## Git
+
+- Développé par Dieu lui-même, Linus Torvalds
+- Supérieur à Mercurial parce que Christopher n'a pas compris comment utiliser Mercurial
+    * Il existe plusieurs systèmes de versionnage
+    * Git est le plus populaire, surtout sur Linux et OSx
+    * Serveur de développement avancé pour Git
+    * Mieux adapté pour gérer la granularité des commits
+    * Mieux adapté pour gérer plusieurs branches
+    * Meilleure communauté de support
+    * Pas un système checkin/checkout
+
+## Comment accéder Git ?
+
+- Linux & OSx :
+    * Terminal
+- Windows : 
+    * Command Prompt
+    * Git Bash
+- UI :
+    * GitKraken
+    * RStudio
+    * PyCharm
+    * GitHub
+
+# Idées du versionnage
+
+## Idée du versionnage
+
+- Prendre une photo du code 
+- Être capable de rétablie cette image en tous temps
+- Pouvoir se déplacer entre plusieurs photos grâce à une liste de changements
+
+## init
+
+Pour initialiser un dépôt git, il y a deux options. 
+
+1. Initialiser un projet dans un répertoire local
+2. Initialiser un dépôt git et le clôner
+
+## Statut du code
+
+Pour avoir des informations sur le statut de la version locale du code, exécuter
+
+    git status
+    
+- Le nom de la branche est présenté
+- Les fichiers changés apparaissent en <span style="color:red">rouge</span>
+    * Changement : ajout, modification, retrait
+- Les fichiers stagés apparissent en <span style="color:green">vert</span>
+- Donne de l'information sur l'avance ou le recul du code local vs remote
+
+## Stager
+
+- git add sert à préparer le fichier à être commité (expliqué dans la prochaine slide). 
+
+    git add fichier-a-ajouter.R
+
+## commit
+
+- La commande commit permet de prendre les ficheirs stagé et créer un changement sur le répertoire local.
+- Manque de l'info
+- Commentaire obligatoire : décrire les changements faits dans le commit
+
+    git commit -m "commentaire obligatoire"
+
+## branch
+
+Pour contourner le problème d'avoir plusieurs versions du code, on créer des branches séparrés du code pour développer des nouveaux features. 
+
+    git checkout -b nouvelle-branche
+    git push -u origin nouvelle-branche
+
+- Si je veux faire une nouvelle fonction sans déranger le travail des autres, je la fais sur une branche séparrée
+- Dans notre blogue, une branche sera un nouvel article
+- La branche master est celle déployée et publique.
+
+## merge
+
+- Une fois que je suis prèt à fusionner ma branche à une autre, je peux faire un merge. 
+- Un merge est un commit de la fusion des codes
+
+## clone
+
+- Pour copier un répertoire existant, on le clone. Ainsi, on peut collaborer sur des dépôts existants et les modifier. 
+
+## log (lg pour les vrais)
+
+Historique des commits
+
+    git log
+    
+Pour les vrais, utiliser la modification 
+
+    git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
+
+
+## .gitignore
+
+Certains dépôts ont des fichiers cachés .gitignore qui ignore certains extensions de fichiers. 
+
+- Débat si on ajoute ce fichier sur le remote
+
+## Local vs remote
+
+- La version du code sur mon ordinateur est dite locale
+- La version du code sur le serveur externe est dite remote
+- Le remote est un backup du code
+- Une fois que je fais une modification sur l'ordinateur que je veux garder, je l'envoye au serveur backup
+- Si je veux rester à jour avec le code sur le backup, je dois ajouter les modifications du code du remote au local
+
+## Envoyer au remote
+
+Les étapes pour prendre un code local et l'envoyer au remote sont
+
+- stage
+- commit
+- push
+
+## Rester à jour avec le remote
+
+La commande pull permet de rester à jour avec les plus récents changements. Elle ajoute les commits (les changements de codes ajoutées par toi ou tes collaborateurs) aux codes localement. À faire chaque fois qu'on débute une session de code ou lorsqu'on sait qu'un autre collaborateur a mis à jour une feature majeure dans le dépôt.
+
+Les conflits de codes doivent être réglés. Voir merge plus loin. 
+
+## Autres commandes à apprendre de votre côté (ou nous demander)
+
+- diff
+- reset
+- rm
+- stash / stash pop
+- reset
+- fetch
+
+## Modification des interfaces
+
+- Linux/Mac : Oh My zsh offre un support visuel et aide à identifier la présente branche
+- Babun : Cygwin configuré, permet de répliquer un bash UNIX 
+
+# Github
+
+## C'est quoi GitHub
+
+- GitHub n'est pas git, comme RStudio n'est pas R !
+- GitHub est un service qui permet d'héberger les versions remote du code
+- Des fonctionnalités augmentent l'utilité de git
+- C'est GitHub qui facilite la collaboration, pas seulement git
+
+## Features sur GitHub
+
+- Pull Requests
+- Issues
+- Projects
+- GitHub Pages
+
+## Issues
+
+Un issue permet de notifier les modérateurs du code qu'il y a un bogue. De plus, il est utilisé comme plateforme de discussion pour proposer des ajouts et changements aux fonctionnalités du code. 
+
+## Pull Requests
+
+- Alternative au merge, un pull request permet de faire approuver les changements par d'autres codeurs
+- Un espace de commentaires permet de discuter des ajouts ou changements
+- On peut faire un pull request pour
+    - Une branche sur un même dépôt
+    - Un fork du dépôt
+- Dans notre cas, le pull request sera utilisé pour valider et corriger le texte des articles. C'est Stéphane qui a corrigé le francais dans notre TP en stats, il est bon pour faire ça. Sinon j'ai antidote.
+
+## Bonnes pratiques de collaboration sur GitHub
+
+1. Créer une branche sur le dépôt
+2. Ajouter des commits
+3. Pusher la branche et les commits sur GitHub
+4. Ouvrir une Pull Request (assigner des correcteurs)
+5. Discuter, approuver et merge
+
+## Autres bonnes pratiques en collaboration
+
+- Les données utilisés pour faire une analyse peuvent être ajoutés au dépôt si le jeu de données est petit. Un grand jeu de données peut prendre de la place, et l'historique des changements dans le jeu de données, qui peut être problématique. Un dépôt peut être jusqu'à 1GB et un fichier peut être jusqu'à 100MB. 
+- .Rprofile, .Rdata, packrat
+
+## Petite démo de Git
+
+Pour pratiquer git et GitHub, deux groupes
+
+1. Débutant : activités de base (créer un dépôt, créer une branche, pusher sur GitHub)
+2. Avancé : techniques avancés sur git (cherry pick, add -p, reset, etc.)
