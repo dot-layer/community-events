@@ -1,42 +1,49 @@
 Premier paiement (40$):
 
-- David Beauchemin
-- Mathieu Godbout
-- Christo
-- Simon Provencher
-- Sam Peroch
-- Jé Desgagnes
-- Etienne L-H
-- Sam Lesvesque
-- Antoine Buteau
-- Nic Garneau
-- Laurent Caron
-- Marc Neron
-- Bruno Tremblay
-- Philippe Raccicot
-- Marc-Alex Paquet
-- Simon Valois
-- JT
-- Alex Dube
-- Guillaume Chevalier
+1. David Beauchemin
+2. Mathieu Godbout
+3. Christo Blier-Wong
+4. Simon Provencher
+5. Sam Peroch
+6. Jé Desgagnes
+7. Etienne L-H
+8. Sam Lesvesque
+9. Antoine Buteau
+10. Nic Garneau
+11. Laurent Caron
+12. Marc Neron
+13. Bruno Tremblay
+14. Philippe Raccicot
+15. Marc-Alex Paquet
+16. Simon Valois
+17. JT Baillargeon
+18. Alex Dube
+19. Guillaume Chevalier
+20. Steph Caron 
 
-(Steph, Jee)
+*21. Jean-Christophe Yelle
 
-2eme paiement:
+2eme paiement (100$):
 
-- JT
-- Bruno Tremblay
-- Antoine Buteau
-- Laurent Caron
-- Guillaume Chevalier
-- Sam Lesvesque
-- Dave Beauchemin
-- Jé Desgagnés
-- Simon Valois
-- Marc Neron
-- Sam Peroch
-- Christo
-- Marc-Alex Paquet
-- Etienne L-H
-- Philippe Raccicot
-- Mathieu Godboult
+1. JT Baillargeon
+2. Bruno Tremblay
+3. Antoine Buteau
+4. Laurent Caron
+5. Guillaume Chevalier
+6. Sam Lesvesque
+7. Dave Beauchemin
+8. Jé Desgagnés
+9. Simon Valois
+10. Marc Neron
+11. Sam Peroch
+12. Christo Blier-Wong
+13. Marc-Alex Paquet
+14. Etienne L-H
+15. Philippe Raccicot
+16. Mathieu Godbout
+17. Steph Caron
+
+*21. Jean-Christophe Yelle 
+
+
+* Ne paye pas, car prend les photos/vidéos de la fds.

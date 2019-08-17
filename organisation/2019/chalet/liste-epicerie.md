@@ -1,7 +1,8 @@
+```
 Chalet-ML 2019
 Nb. personnes: 21
 Repas: [1 diner, 2 soupers, 2 déjeuners]
-
+```
 
 # Menu
 
