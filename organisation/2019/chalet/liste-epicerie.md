@@ -49,6 +49,7 @@ Dimanche déjeuner: Déjeuner continental
 	- Chips (6 gros sacs, varier les sortes)
 	- Ketchup/moutardes/mayo/relish (si possible un kit combinés)
 	- Paquet d'onions blanc
+	- 4 lbs de beurre??
 
 
 ## IGA
