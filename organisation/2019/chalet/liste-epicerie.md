@@ -49,6 +49,10 @@ Dimanche déjeuner: Déjeuner continental
 	- Chips (6 gros sacs, varier les sortes)
 	- Ketchup/moutardes/mayo/relish (si possible un kit combinés)
 	- Paquet d'onions blanc
+	- 4 lbs de beurre??
+	- Sac ziploc pour mariner les viandes
+	- Brochette de bois pour faire les brochettes
+	- 1 sac de 6 Poivrons
 
 
 ## IGA
