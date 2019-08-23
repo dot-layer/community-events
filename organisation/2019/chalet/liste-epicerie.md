@@ -16,7 +16,7 @@ Samedi Souper: Grillades BBQ
 
 Dimanche déjeuner: Déjeuner continental
 
-<div style="page-break-after: always;"></div>
+------
 
 # Listes d'épicerie
 
