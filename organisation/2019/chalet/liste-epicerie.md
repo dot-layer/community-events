@@ -16,7 +16,7 @@ Samedi Souper: Grillades BBQ
 
 Dimanche déjeuner: Déjeuner continental
 
-
+------
 
 # Listes d'épicerie
 
@@ -53,14 +53,14 @@ Dimanche déjeuner: Déjeuner continental
 	- Sac ziploc pour mariner les viandes
 	- Brochette de bois pour faire les brochettes
 	- 1 sac de 6 Poivrons
+	- 4L lait costco sac
+	- Fromages singles (32 ou 48 tranches)
 
 
 ## IGA
-	- Boulettes/saucissses végé
+	- Boulettes/saucissses végé (Beyond meat ou Yves)
 	- Toffu
 	- Zuchinnis
 	- Filtres Cafés
-	- Pinte laite (2L)
 	- Sucre (café)
-	- Fromages singles (32 ou 48 tranches)
 	
