@@ -1,0 +1,36 @@
+Date: 5 mai 2020
+Nombre de participants: 18 personnes
+Lieu: Meeting Zoom en ligne
+Heure: 17h30 à 18h45
+
+1. Steph refait un classique résumé de .Layer et de la mission
+
+2. Petit rappel de la charte (on recommande a tout le monde de la lire, ça prend environ 5 mins à lire gros max)
+
+3. Jean-Thomas fait le bilan financier
+    - Profits de 750$ 
+    - Les profits ont principalement été dégagés par des formations et petits surplus d'événements
+    - Dépenses initiales pour Logo/branding par Pikur (super job pour vraiment pas cher !! merci Jee)
+    - JT propose d'explorer de nouvelles options pour le compte de banque (75$ par année un peu cher pour le peu de transactions)
+    
+4. David entame la discussion sur les membres et la cotisation
+    - Proposition d'une cotisation de 20$ par membre : ACCEPTÉ UNANIMITÉ
+    - Sam Perochkin demande commment on va proceder pour l'inscription. On a conclu qu'on ferait le post sur le groupe
+      Facebook et que tout le monde du groupe pourrait joindre en tant que membre en payant la cotisation. On s'est dit
+      qu'on reverrait le passage de la Charte qui parle du processus d'adhésion. Revoir le wording pour simplifier l'acceptation,
+      par exemple: tout le monde dans le groupe Facebook est accepté, sauf si les membres du CA s'y oppose (devrait pas arrivé très
+      souvent)
+    - Étienne Larrivé demande s'il pourrait avoir une exemption pour les étudiants. On a conclu que la cotisation est déjà 
+      très basse et définit pour que ça soit sensé pour un étudiant
+    - Étienne Larrivé demande s'il est possible de donner plus. On conclu que oui, sans problème, mais ça ne donne pas d'avantages
+      supplémentaires.
+
+5. Plusieurs discussions autour des projets en cours .Layer:
+    - Blog: plus accessible et facile avec la publication de l'article "How to"
+    - Projet d'annotations open source: Marc-Alexandre dit que si d'autres personnes veulent s'impliquer, ils n'ont qu'à lever la main ! 
+    - Nicolas Garneau mentionne que la porte est ouverte pour l'organisation d'événements (ex: meetups en ligne)
+    - Pas de chalet pour été 2020 (avec le covid): Bruno Tremblay propose d'organiser une fds pour travailler sur un projet open-
+      source à distance ! La porte est ouverte pour des idées pour substituer le chalet ML !
+      
+L'assemblée est levée.
+      
